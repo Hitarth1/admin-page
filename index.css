@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #DAE0E2;
+}
+#header{
+    background-color: white;
+    height: 70px;
+    padding-left: 0;
+}
+.left>h5>i{
+    color: dodgerblue;
+}
+
+.left>h5{
+    margin-bottom: 0;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.right p,h5{
+    display: inline-block;
+}
+.right>a:nth-child(1)>i{
+    color: red;
+}
+.right>h5{
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.right div a:nth-of-type(1){
+    font-size: 13px;
+    margin-left: 95px;
+    text-decoration: underline;
+}
+.right div a:nth-of-type(2){
+    font-size: 13px;
+    margin-left: 5px;
+    color: red;
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 20px;
+}
+.new-tag{
+    border: 1px solid rgba(0,0,0, 0.2);
+}
+.new-tag .para{
+    margin: 10px;
+}
+.new-tag .content{
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0, 0.2); 
+    padding: 20px;
+}
+.new-tag .content .msg{
+    font-size: 15px; 
+}
+.new-tag .btn-primary{
+    background-color: dodgerblue;
+    border: none;
+    font-weight: 600;
+}
+.tags{
+    margin-top: 20px;
+    border: 1px solid rgba(0,0,0, 0.2);
+}
+.tags .content{
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0, 0.2); 
+    padding: 5px 10px;
+}
+.tags .para{
+    margin: 10px;
+}
+.tags hr{
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+.tags label{
+    margin: 0;
+}
+.tags .page{
+    margin: 10px;
+}
+.tags .page span{
+    margin-left: 80%;
+}
